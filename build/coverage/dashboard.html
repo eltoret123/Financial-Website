@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\Users\Emili\Desktop\2526-team-407</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=14.1.9" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=14.1.9" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">C:\Users\Emili\Desktop\2526-team-407</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row dashboard-row">
+    <div class="col-md-6">
+     <h3>Classes</h3>
+     <p class="text-muted small">Bubble size = executable lines. Hover for details, click to navigate.</p>
+     <div class="file-coverage-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid meet">
+ <style>
+  .bubble-success { fill: var(--phpunit-success-bar); opacity: 0.7; }
+  .bubble-warning { fill: var(--phpunit-warning-bar); opacity: 0.7; }
+  .bubble-danger { fill: var(--phpunit-danger-bar); opacity: 0.7; }
+  .bubble-success:hover, .bubble-warning:hover, .bubble-danger:hover { opacity: 1; stroke: var(--bs-emphasis-color); stroke-width: 1.5; }
+  .chart-grid { stroke: var(--bs-border-color); stroke-width: 0.5; stroke-dasharray: 4,4; opacity: 0.5; }
+  .chart-axis { stroke: var(--bs-border-color); stroke-width: 1; }
+  .chart-label { fill: var(--bs-body-color); font-size: 11px; font-family: var(--bs-font-sans-serif, sans-serif); }
+  .chart-title { fill: var(--bs-body-color); font-size: 12px; font-family: var(--bs-font-sans-serif, sans-serif); }
+ </style>
+ <line x1="60.0" y1="20" x2="60.0" y2="350" class="chart-grid"/>
+ <text x="60.0" y="368" text-anchor="middle" class="chart-label">0%</text>
+ <line x1="204.0" y1="20" x2="204.0" y2="350" class="chart-grid"/>
+ <text x="204.0" y="368" text-anchor="middle" class="chart-label">20%</text>
+ <line x1="348.0" y1="20" x2="348.0" y2="350" class="chart-grid"/>
+ <text x="348.0" y="368" text-anchor="middle" class="chart-label">40%</text>
+ <line x1="492.0" y1="20" x2="492.0" y2="350" class="chart-grid"/>
+ <text x="492.0" y="368" text-anchor="middle" class="chart-label">60%</text>
+ <line x1="636.0" y1="20" x2="636.0" y2="350" class="chart-grid"/>
+ <text x="636.0" y="368" text-anchor="middle" class="chart-label">80%</text>
+ <line x1="780.0" y1="20" x2="780.0" y2="350" class="chart-grid"/>
+ <text x="780.0" y="368" text-anchor="middle" class="chart-label">100%</text>
+ <line x1="60" y1="350.0" x2="780" y2="350.0" class="chart-grid"/>
+ <text x="52" y="350.0" text-anchor="end" dominant-baseline="middle" class="chart-label">0</text>
+ <line x1="60" y1="267.5" x2="780" y2="267.5" class="chart-grid"/>
+ <text x="52" y="267.5" text-anchor="end" dominant-baseline="middle" class="chart-label">10</text>
+ <line x1="60" y1="185.0" x2="780" y2="185.0" class="chart-grid"/>
+ <text x="52" y="185.0" text-anchor="end" dominant-baseline="middle" class="chart-label">20</text>
+ <line x1="60" y1="102.5" x2="780" y2="102.5" class="chart-grid"/>
+ <text x="52" y="102.5" text-anchor="end" dominant-baseline="middle" class="chart-label">30</text>
+ <line x1="60" y1="20.0" x2="780" y2="20.0" class="chart-grid"/>
+ <text x="52" y="20.0" text-anchor="end" dominant-baseline="middle" class="chart-label">40</text>
+ <line x1="60" y1="20" x2="60" y2="350" class="chart-axis"/>
+ <line x1="60" y1="350" x2="780" y2="350" class="chart-axis"/>
+ <text x="420.0" y="395" text-anchor="middle" class="chart-title">Line Coverage (%)</text>
+ <text x="15" y="185.0" text-anchor="middle" transform="rotate(-90, 15, 185.0)" class="chart-title">Cyclomatic Complexity</text>
+ <a href="src/Api/CreateForumHandler.php.html#11"><circle cx="780.0" cy="284.0" r="20.0" class="bubble-success"><title>Team407\InvestingWebsite\Api\CreateForumHandler — Coverage: 100.0% | Lines: 45 | Complexity: 8</title></circle></a>
+ <a href="src/Api/CreateForumResponseHandler.php.html#12"><circle cx="780.0" cy="275.8" r="19.8" class="bubble-success"><title>Team407\InvestingWebsite\Api\CreateForumResponseHandler — Coverage: 100.0% | Lines: 44 | Complexity: 9</title></circle></a>
+ <a href="src/Api/DeleteForumHandler.php.html#12"><circle cx="780.0" cy="259.2" r="19.6" class="bubble-success"><title>Team407\InvestingWebsite\Api\DeleteForumHandler — Coverage: 100.0% | Lines: 43 | Complexity: 11</title></circle></a>
+ <a href="src/Entity/News.php.html#11"><circle cx="730.3" cy="201.5" r="16.1" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News — Coverage: 93.1% | Lines: 29 | Complexity: 18</title></circle></a>
+ <a href="src/Entity/User.php.html#9"><circle cx="780.0" cy="119.0" r="16.1" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User — Coverage: 100.0% | Lines: 29 | Complexity: 28</title></circle></a>
+ <a href="src/Api/NewsResponseFactory.php.html#5"><circle cx="780.0" cy="317.0" r="12.6" class="bubble-success"><title>Team407\InvestingWebsite\Api\NewsResponseFactory — Coverage: 100.0% | Lines: 18 | Complexity: 4</title></circle></a>
+ <a href="src/Api/GetInterestHandler.php.html#10"><circle cx="780.0" cy="317.0" r="12.3" class="bubble-success"><title>Team407\InvestingWebsite\Api\GetInterestHandler — Coverage: 100.0% | Lines: 17 | Complexity: 4</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#11"><circle cx="780.0" cy="259.2" r="12.3" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare — Coverage: 100.0% | Lines: 17 | Complexity: 11</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#10"><circle cx="714.5" cy="284.0" r="9.9" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio — Coverage: 90.9% | Lines: 11 | Complexity: 8</title></circle></a>
+ <a href="src/Entity/Forum.php.html#10"><circle cx="780.0" cy="300.5" r="8.9" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum — Coverage: 100.0% | Lines: 9 | Complexity: 6</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#10"><circle cx="780.0" cy="300.5" r="8.9" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory — Coverage: 100.0% | Lines: 9 | Complexity: 6</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#10"><circle cx="780.0" cy="300.5" r="8.9" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum — Coverage: 100.0% | Lines: 9 | Complexity: 6</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#10"><circle cx="780.0" cy="284.0" r="8.4" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction — Coverage: 100.0% | Lines: 8 | Complexity: 8</title></circle></a>
+ <a href="src/Entity/Stock.php.html#10"><circle cx="780.0" cy="300.5" r="8.4" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock — Coverage: 100.0% | Lines: 8 | Complexity: 6</title></circle></a>
+ <a href="src/Entity/SectorInStocks.php.html#11"><circle cx="780.0" cy="317.0" r="6.7" class="bubble-success"><title>Team407\InvestingWebsite\Entity\SectorInStocks — Coverage: 100.0% | Lines: 5 | Complexity: 4</title></circle></a>
+ <a href="src/Entity/Sector.php.html#9"><circle cx="780.0" cy="325.2" r="5.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Sector — Coverage: 100.0% | Lines: 3 | Complexity: 3</title></circle></a>
+ <a href="src/Entity/Tracker.php.html#11"><circle cx="780.0" cy="341.8" r="5.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Tracker — Coverage: 100.0% | Lines: 3 | Complexity: 1</title></circle></a>
+</svg>
+     </div>
+    </div>
+    <div class="col-md-6 dashboard-column">
+     <h3>&nbsp;</h3>
+     <p class="text-muted small">Sorted by descending CRAP (Change Risk Anti-Patterns) index.</p>
+     <div class="scrollbox">
+<table class="table">
+ <thead>
+  <tr>
+   <th>Class</th>
+   <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+   <th class="text-right">Coverage</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr><td><a href="src/Entity/User.php.html#9">Team407\InvestingWebsite\Entity\User</a></td><td class="text-right">28</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#11">Team407\InvestingWebsite\Entity\News</a></td><td class="text-right">18.11</td><td class="text-right">93.1%</td></tr>
+  <tr><td><a href="src/Api/DeleteForumHandler.php.html#12">Team407\InvestingWebsite\Api\DeleteForumHandler</a></td><td class="text-right">11</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#11">Team407\InvestingWebsite\Entity\OwnershipShare</a></td><td class="text-right">11</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/CreateForumResponseHandler.php.html#12">Team407\InvestingWebsite\Api\CreateForumResponseHandler</a></td><td class="text-right">9</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#10">Team407\InvestingWebsite\Entity\Portfolio</a></td><td class="text-right">8.05</td><td class="text-right">90.9%</td></tr>
+  <tr><td><a href="src/Api/CreateForumHandler.php.html#11">Team407\InvestingWebsite\Api\CreateForumHandler</a></td><td class="text-right">8</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#10">Team407\InvestingWebsite\Entity\PortfolioTransaction</a></td><td class="text-right">8</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#10">Team407\InvestingWebsite\Entity\Forum</a></td><td class="text-right">6</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#10">Team407\InvestingWebsite\Entity\PortfolioHistory</a></td><td class="text-right">6</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#10">Team407\InvestingWebsite\Entity\Stock</a></td><td class="text-right">6</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#10">Team407\InvestingWebsite\Entity\Subforum</a></td><td class="text-right">6</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/GetInterestHandler.php.html#10">Team407\InvestingWebsite\Api\GetInterestHandler</a></td><td class="text-right">4</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/NewsResponseFactory.php.html#5">Team407\InvestingWebsite\Api\NewsResponseFactory</a></td><td class="text-right">4</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/SectorInStocks.php.html#11">Team407\InvestingWebsite\Entity\SectorInStocks</a></td><td class="text-right">4</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Sector.php.html#9">Team407\InvestingWebsite\Entity\Sector</a></td><td class="text-right">3</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Tracker.php.html#11">Team407\InvestingWebsite\Entity\Tracker</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+ </tbody>
+</table>
+     </div>
+    </div>
+   </div>
+   <div class="row dashboard-row">
+    <div class="col-md-6">
+     <h3>Methods</h3>
+     <p class="text-muted small">Bubble size = executable lines. Hover for details, click to navigate.</p>
+     <div class="file-coverage-chart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid meet">
+ <style>
+  .bubble-success { fill: var(--phpunit-success-bar); opacity: 0.7; }
+  .bubble-warning { fill: var(--phpunit-warning-bar); opacity: 0.7; }
+  .bubble-danger { fill: var(--phpunit-danger-bar); opacity: 0.7; }
+  .bubble-success:hover, .bubble-warning:hover, .bubble-danger:hover { opacity: 1; stroke: var(--bs-emphasis-color); stroke-width: 1.5; }
+  .chart-grid { stroke: var(--bs-border-color); stroke-width: 0.5; stroke-dasharray: 4,4; opacity: 0.5; }
+  .chart-axis { stroke: var(--bs-border-color); stroke-width: 1; }
+  .chart-label { fill: var(--bs-body-color); font-size: 11px; font-family: var(--bs-font-sans-serif, sans-serif); }
+  .chart-title { fill: var(--bs-body-color); font-size: 12px; font-family: var(--bs-font-sans-serif, sans-serif); }
+ </style>
+ <line x1="60.0" y1="20" x2="60.0" y2="350" class="chart-grid"/>
+ <text x="60.0" y="368" text-anchor="middle" class="chart-label">0%</text>
+ <line x1="204.0" y1="20" x2="204.0" y2="350" class="chart-grid"/>
+ <text x="204.0" y="368" text-anchor="middle" class="chart-label">20%</text>
+ <line x1="348.0" y1="20" x2="348.0" y2="350" class="chart-grid"/>
+ <text x="348.0" y="368" text-anchor="middle" class="chart-label">40%</text>
+ <line x1="492.0" y1="20" x2="492.0" y2="350" class="chart-grid"/>
+ <text x="492.0" y="368" text-anchor="middle" class="chart-label">60%</text>
+ <line x1="636.0" y1="20" x2="636.0" y2="350" class="chart-grid"/>
+ <text x="636.0" y="368" text-anchor="middle" class="chart-label">80%</text>
+ <line x1="780.0" y1="20" x2="780.0" y2="350" class="chart-grid"/>
+ <text x="780.0" y="368" text-anchor="middle" class="chart-label">100%</text>
+ <line x1="60" y1="350.0" x2="780" y2="350.0" class="chart-grid"/>
+ <text x="52" y="350.0" text-anchor="end" dominant-baseline="middle" class="chart-label">0</text>
+ <line x1="60" y1="240.0" x2="780" y2="240.0" class="chart-grid"/>
+ <text x="52" y="240.0" text-anchor="end" dominant-baseline="middle" class="chart-label">5</text>
+ <line x1="60" y1="130.0" x2="780" y2="130.0" class="chart-grid"/>
+ <text x="52" y="130.0" text-anchor="end" dominant-baseline="middle" class="chart-label">10</text>
+ <line x1="60" y1="20.0" x2="780" y2="20.0" class="chart-grid"/>
+ <text x="52" y="20.0" text-anchor="end" dominant-baseline="middle" class="chart-label">15</text>
+ <line x1="60" y1="20" x2="60" y2="350" class="chart-axis"/>
+ <line x1="60" y1="350" x2="780" y2="350" class="chart-axis"/>
+ <text x="420.0" y="395" text-anchor="middle" class="chart-title">Line Coverage (%)</text>
+ <text x="15" y="185.0" text-anchor="middle" transform="rotate(-90, 15, 185.0)" class="chart-title">Cyclomatic Complexity</text>
+ <a href="src/Api/CreateForumHandler.php.html#13"><circle cx="780.0" cy="174.0" r="20.0" class="bubble-success"><title>Team407\InvestingWebsite\Api\CreateForumHandler::handle — Coverage: 100.0% | Lines: 45 | Complexity: 8</title></circle></a>
+ <a href="src/Api/CreateForumResponseHandler.php.html#14"><circle cx="780.0" cy="152.0" r="19.8" class="bubble-success"><title>Team407\InvestingWebsite\Api\CreateForumResponseHandler::handle — Coverage: 100.0% | Lines: 44 | Complexity: 9</title></circle></a>
+ <a href="src/Api/DeleteForumHandler.php.html#14"><circle cx="780.0" cy="108.0" r="19.6" class="bubble-success"><title>Team407\InvestingWebsite\Api\DeleteForumHandler::handle — Coverage: 100.0% | Lines: 43 | Complexity: 11</title></circle></a>
+ <a href="src/Api/NewsResponseFactory.php.html#7"><circle cx="780.0" cy="262.0" r="12.6" class="bubble-success"><title>Team407\InvestingWebsite\Api\NewsResponseFactory::create — Coverage: 100.0% | Lines: 18 | Complexity: 4</title></circle></a>
+ <a href="src/Api/GetInterestHandler.php.html#12"><circle cx="780.0" cy="262.0" r="12.3" class="bubble-success"><title>Team407\InvestingWebsite\Api\GetInterestHandler::handle — Coverage: 100.0% | Lines: 17 | Complexity: 4</title></circle></a>
+ <a href="src/Entity/News.php.html#52"><circle cx="780.0" cy="328.0" r="7.3" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::__construct — Coverage: 100.0% | Lines: 6 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#35"><circle cx="780.0" cy="328.0" r="6.7" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::__construct — Coverage: 100.0% | Lines: 5 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#30"><circle cx="780.0" cy="328.0" r="6.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::__construct — Coverage: 100.0% | Lines: 4 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#30"><circle cx="780.0" cy="328.0" r="6.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::__construct — Coverage: 100.0% | Lines: 4 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#30"><circle cx="780.0" cy="328.0" r="6.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::__construct — Coverage: 100.0% | Lines: 4 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#31"><circle cx="780.0" cy="328.0" r="6.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::__construct — Coverage: 100.0% | Lines: 4 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#28"><circle cx="780.0" cy="328.0" r="5.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::__construct — Coverage: 100.0% | Lines: 3 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Tracker.php.html#29"><circle cx="780.0" cy="328.0" r="5.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Tracker::__construct — Coverage: 100.0% | Lines: 3 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#63"><circle cx="60.0" cy="306.0" r="4.2" class="bubble-danger"><title>Team407\InvestingWebsite\Entity\News::setCreatedAtValue — Coverage: 0.0% | Lines: 2 | Complexity: 2</title></circle></a>
+ <a href="src/Entity/News.php.html#87"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setTitle — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#98"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setDescription — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#109"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setUrl — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#120"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setImageUrl — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#131"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setPublishedAt — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#142"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::setSector — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#69"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::setSharesHeld — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#80"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::setAvgBuyPrice — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/SectorInStocks.php.html#26"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\SectorInStocks::__construct — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#191"><circle cx="780.0" cy="328.0" r="4.2" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setSuspendedUntil — Coverage: 100.0% | Lines: 2 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#38"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::getForumId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#43"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::getTitle — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#48"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::getQuestion — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#53"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Forum.php.html#58"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Forum::getUser — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#72"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getNewsId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#77"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getUuid — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#82"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getTitle — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#93"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getDescription — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#104"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getUrl — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#115"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getImageUrl — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#126"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getPublishedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#137"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getSector — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/News.php.html#148"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\News::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#44"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getOwnershipId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#49"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getPortfolio — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#54"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getStock — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#59"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getTicker — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#64"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getSharesHeld — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#75"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getAvgBuyPrice — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#86"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::getUpdatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/OwnershipShare.php.html#91"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\OwnershipShare::touch — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#38"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::getPortfolioId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#43"><circle cx="60.0" cy="328.0" r="4.0" class="bubble-danger"><title>Team407\InvestingWebsite\Entity\Portfolio::getUser — Coverage: 0.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#48"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::getPortfolioName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#53"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::setPortfolioName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#58"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::getCashBalance — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#63"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::setCashBalance — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Portfolio.php.html#68"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Portfolio::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#38"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::getHistoryId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#43"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::getPortfolio — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#48"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::getCashBalance — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#53"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::getTotalValue — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioHistory.php.html#58"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioHistory::getRecordedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#39"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getTransactionId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#44"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getPortfolio — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#49"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getTicker — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#54"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getTradeType — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#59"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getShares — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#64"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getPrice — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#69"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getTotal — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/PortfolioTransaction.php.html#74"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\PortfolioTransaction::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Sector.php.html#20"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Sector::getSectorId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Sector.php.html#25"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Sector::getSectorName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Sector.php.html#30"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Sector::setSectorName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/SectorInStocks.php.html#32"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\SectorInStocks::getId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/SectorInStocks.php.html#37"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\SectorInStocks::getSector — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/SectorInStocks.php.html#42"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\SectorInStocks::getStock — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#37"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::getTicker — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#42"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::getCompanyName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#47"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::getExchange — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#52"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::getCurrency — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Stock.php.html#57"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Stock::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#39"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::getSubforumId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#44"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::getResponse — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#49"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#54"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::getForum — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/Subforum.php.html#59"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\Subforum::getUser — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#56"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::__construct — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#61"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getUserId — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#66"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getUsername — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#71"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setUsername — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#76"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getEmail — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#81"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setEmail — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#86"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getPassword — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#91"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setPassword — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#96"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getGoogleID — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#101"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setGoogleID — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#106"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getFirstName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#111"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setFirstName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#116"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getLastName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#121"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setLastName — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#126"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#131"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setCreatedAt — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#136"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getResetToken — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#141"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setResetToken — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#146"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getResetTokenExpires — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#151"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setResetTokenExpires — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#156"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getSector — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#161"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setSector — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#166"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::isAdmin — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#171"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setAdmin — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#176"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getProfilePicture — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#181"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::setProfilePicture — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+ <a href="src/Entity/User.php.html#186"><circle cx="780.0" cy="328.0" r="4.0" class="bubble-success"><title>Team407\InvestingWebsite\Entity\User::getSuspendedUntil — Coverage: 100.0% | Lines: 1 | Complexity: 1</title></circle></a>
+</svg>
+     </div>
+    </div>
+    <div class="col-md-6 dashboard-column">
+     <h3>&nbsp;</h3>
+     <p class="text-muted small">Sorted by descending CRAP (Change Risk Anti-Patterns) index.</p>
+     <div class="scrollbox">
+<table class="table">
+ <thead>
+  <tr>
+   <th>Method</th>
+   <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+   <th class="text-right">Coverage</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr><td><a href="src/Api/DeleteForumHandler.php.html#14">Team407\InvestingWebsite\Api\DeleteForumHandler::handle</a></td><td class="text-right">11</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/CreateForumResponseHandler.php.html#14">Team407\InvestingWebsite\Api\CreateForumResponseHandler::handle</a></td><td class="text-right">9</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/CreateForumHandler.php.html#13">Team407\InvestingWebsite\Api\CreateForumHandler::handle</a></td><td class="text-right">8</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#63">Team407\InvestingWebsite\Entity\News::setCreatedAtValue</a></td><td class="text-right">6</td><td class="text-right">0.0%</td></tr>
+  <tr><td><a href="src/Api/GetInterestHandler.php.html#12">Team407\InvestingWebsite\Api\GetInterestHandler::handle</a></td><td class="text-right">4</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Api/NewsResponseFactory.php.html#7">Team407\InvestingWebsite\Api\NewsResponseFactory::create</a></td><td class="text-right">4</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#43">Team407\InvestingWebsite\Entity\Portfolio::getUser</a></td><td class="text-right">2</td><td class="text-right">0.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#30">Team407\InvestingWebsite\Entity\Forum::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#38">Team407\InvestingWebsite\Entity\Forum::getForumId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#43">Team407\InvestingWebsite\Entity\Forum::getTitle</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#48">Team407\InvestingWebsite\Entity\Forum::getQuestion</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#53">Team407\InvestingWebsite\Entity\Forum::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Forum.php.html#58">Team407\InvestingWebsite\Entity\Forum::getUser</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#52">Team407\InvestingWebsite\Entity\News::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#72">Team407\InvestingWebsite\Entity\News::getNewsId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#77">Team407\InvestingWebsite\Entity\News::getUuid</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#82">Team407\InvestingWebsite\Entity\News::getTitle</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#87">Team407\InvestingWebsite\Entity\News::setTitle</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#93">Team407\InvestingWebsite\Entity\News::getDescription</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#98">Team407\InvestingWebsite\Entity\News::setDescription</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#104">Team407\InvestingWebsite\Entity\News::getUrl</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#109">Team407\InvestingWebsite\Entity\News::setUrl</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#115">Team407\InvestingWebsite\Entity\News::getImageUrl</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#120">Team407\InvestingWebsite\Entity\News::setImageUrl</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#126">Team407\InvestingWebsite\Entity\News::getPublishedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#131">Team407\InvestingWebsite\Entity\News::setPublishedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#137">Team407\InvestingWebsite\Entity\News::getSector</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#142">Team407\InvestingWebsite\Entity\News::setSector</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/News.php.html#148">Team407\InvestingWebsite\Entity\News::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#35">Team407\InvestingWebsite\Entity\OwnershipShare::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#44">Team407\InvestingWebsite\Entity\OwnershipShare::getOwnershipId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#49">Team407\InvestingWebsite\Entity\OwnershipShare::getPortfolio</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#54">Team407\InvestingWebsite\Entity\OwnershipShare::getStock</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#59">Team407\InvestingWebsite\Entity\OwnershipShare::getTicker</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#64">Team407\InvestingWebsite\Entity\OwnershipShare::getSharesHeld</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#69">Team407\InvestingWebsite\Entity\OwnershipShare::setSharesHeld</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#75">Team407\InvestingWebsite\Entity\OwnershipShare::getAvgBuyPrice</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#80">Team407\InvestingWebsite\Entity\OwnershipShare::setAvgBuyPrice</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#86">Team407\InvestingWebsite\Entity\OwnershipShare::getUpdatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/OwnershipShare.php.html#91">Team407\InvestingWebsite\Entity\OwnershipShare::touch</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#30">Team407\InvestingWebsite\Entity\Portfolio::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#38">Team407\InvestingWebsite\Entity\Portfolio::getPortfolioId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#48">Team407\InvestingWebsite\Entity\Portfolio::getPortfolioName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#53">Team407\InvestingWebsite\Entity\Portfolio::setPortfolioName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#58">Team407\InvestingWebsite\Entity\Portfolio::getCashBalance</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#63">Team407\InvestingWebsite\Entity\Portfolio::setCashBalance</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Portfolio.php.html#68">Team407\InvestingWebsite\Entity\Portfolio::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#30">Team407\InvestingWebsite\Entity\PortfolioHistory::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#38">Team407\InvestingWebsite\Entity\PortfolioHistory::getHistoryId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#43">Team407\InvestingWebsite\Entity\PortfolioHistory::getPortfolio</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#48">Team407\InvestingWebsite\Entity\PortfolioHistory::getCashBalance</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#53">Team407\InvestingWebsite\Entity\PortfolioHistory::getTotalValue</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioHistory.php.html#58">Team407\InvestingWebsite\Entity\PortfolioHistory::getRecordedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#39">Team407\InvestingWebsite\Entity\PortfolioTransaction::getTransactionId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#44">Team407\InvestingWebsite\Entity\PortfolioTransaction::getPortfolio</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#49">Team407\InvestingWebsite\Entity\PortfolioTransaction::getTicker</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#54">Team407\InvestingWebsite\Entity\PortfolioTransaction::getTradeType</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#59">Team407\InvestingWebsite\Entity\PortfolioTransaction::getShares</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#64">Team407\InvestingWebsite\Entity\PortfolioTransaction::getPrice</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#69">Team407\InvestingWebsite\Entity\PortfolioTransaction::getTotal</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/PortfolioTransaction.php.html#74">Team407\InvestingWebsite\Entity\PortfolioTransaction::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Sector.php.html#20">Team407\InvestingWebsite\Entity\Sector::getSectorId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Sector.php.html#25">Team407\InvestingWebsite\Entity\Sector::getSectorName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Sector.php.html#30">Team407\InvestingWebsite\Entity\Sector::setSectorName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/SectorInStocks.php.html#26">Team407\InvestingWebsite\Entity\SectorInStocks::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/SectorInStocks.php.html#32">Team407\InvestingWebsite\Entity\SectorInStocks::getId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/SectorInStocks.php.html#37">Team407\InvestingWebsite\Entity\SectorInStocks::getSector</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/SectorInStocks.php.html#42">Team407\InvestingWebsite\Entity\SectorInStocks::getStock</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#28">Team407\InvestingWebsite\Entity\Stock::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#37">Team407\InvestingWebsite\Entity\Stock::getTicker</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#42">Team407\InvestingWebsite\Entity\Stock::getCompanyName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#47">Team407\InvestingWebsite\Entity\Stock::getExchange</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#52">Team407\InvestingWebsite\Entity\Stock::getCurrency</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Stock.php.html#57">Team407\InvestingWebsite\Entity\Stock::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#31">Team407\InvestingWebsite\Entity\Subforum::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#39">Team407\InvestingWebsite\Entity\Subforum::getSubforumId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#44">Team407\InvestingWebsite\Entity\Subforum::getResponse</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#49">Team407\InvestingWebsite\Entity\Subforum::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#54">Team407\InvestingWebsite\Entity\Subforum::getForum</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Subforum.php.html#59">Team407\InvestingWebsite\Entity\Subforum::getUser</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/Tracker.php.html#29">Team407\InvestingWebsite\Entity\Tracker::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#56">Team407\InvestingWebsite\Entity\User::__construct</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#61">Team407\InvestingWebsite\Entity\User::getUserId</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#66">Team407\InvestingWebsite\Entity\User::getUsername</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#71">Team407\InvestingWebsite\Entity\User::setUsername</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#76">Team407\InvestingWebsite\Entity\User::getEmail</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#81">Team407\InvestingWebsite\Entity\User::setEmail</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#86">Team407\InvestingWebsite\Entity\User::getPassword</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#91">Team407\InvestingWebsite\Entity\User::setPassword</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#96">Team407\InvestingWebsite\Entity\User::getGoogleID</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#101">Team407\InvestingWebsite\Entity\User::setGoogleID</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#106">Team407\InvestingWebsite\Entity\User::getFirstName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#111">Team407\InvestingWebsite\Entity\User::setFirstName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#116">Team407\InvestingWebsite\Entity\User::getLastName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#121">Team407\InvestingWebsite\Entity\User::setLastName</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#126">Team407\InvestingWebsite\Entity\User::getCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#131">Team407\InvestingWebsite\Entity\User::setCreatedAt</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#136">Team407\InvestingWebsite\Entity\User::getResetToken</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#141">Team407\InvestingWebsite\Entity\User::setResetToken</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#146">Team407\InvestingWebsite\Entity\User::getResetTokenExpires</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#151">Team407\InvestingWebsite\Entity\User::setResetTokenExpires</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#156">Team407\InvestingWebsite\Entity\User::getSector</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#161">Team407\InvestingWebsite\Entity\User::setSector</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#166">Team407\InvestingWebsite\Entity\User::isAdmin</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#171">Team407\InvestingWebsite\Entity\User::setAdmin</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#176">Team407\InvestingWebsite\Entity\User::getProfilePicture</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#181">Team407\InvestingWebsite\Entity\User::setProfilePicture</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#186">Team407\InvestingWebsite\Entity\User::getSuspendedUntil</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+  <tr><td><a href="src/Entity/User.php.html#191">Team407\InvestingWebsite\Entity\User::setSuspendedUntil</a></td><td class="text-right">1</td><td class="text-right">100.0%</td></tr>
+ </tbody>
+</table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 14.1.9</a> using <a href="https://www.php.net/" target="_top">PHP 8.5.3</a> and <a href="https://phpunit.de/">PHPUnit 13.1.11</a> at Fri May 22 2:49:36 CEST 2026.</small>
+    </p>
+   </footer>
+  </div>
+ </body>
+</html>

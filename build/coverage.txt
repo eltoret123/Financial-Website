@@ -1,0 +1,44 @@
+
+
+[1;37;40mCode Coverage Report:       [0m
+[1;37;40m  2026-05-22 02:49:37       [0m
+[1;37;40m                            [0m
+[1;37;40m Summary:                   [0m
+[30;43m  Classes: 88.24% (15/17)   [0m
+[30;42m  Methods: 98.17% (107/109) [0m
+[30;43m  Lines:   52.80% (924/1750)[0m
+
+Team407\InvestingWebsite\Api\CreateForumHandler
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 45/ 45)[0m
+Team407\InvestingWebsite\Api\CreateForumResponseHandler
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 44/ 44)[0m
+Team407\InvestingWebsite\Api\DeleteForumHandler
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 43/ 43)[0m
+Team407\InvestingWebsite\Api\GetInterestHandler
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 17/ 17)[0m
+Team407\InvestingWebsite\Api\NewsResponseFactory
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% ( 18/ 18)[0m
+Team407\InvestingWebsite\Entity\Forum
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% (  9/  9)[0m
+Team407\InvestingWebsite\Entity\News
+  [30;42mMethods:  94.12% (16/17)[0m   [30;42mLines:  93.10% ( 27/ 29)[0m
+Team407\InvestingWebsite\Entity\OwnershipShare
+  [30;42mMethods: 100.00% (11/11)[0m   [30;42mLines: 100.00% ( 17/ 17)[0m
+Team407\InvestingWebsite\Entity\Portfolio
+  [30;43mMethods:  87.50% ( 7/ 8)[0m   [30;42mLines:  90.91% ( 10/ 11)[0m
+Team407\InvestingWebsite\Entity\PortfolioHistory
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% (  9/  9)[0m
+Team407\InvestingWebsite\Entity\PortfolioTransaction
+  [30;42mMethods: 100.00% ( 8/ 8)[0m   [30;42mLines: 100.00% (  8/  8)[0m
+Team407\InvestingWebsite\Entity\Sector
+  [30;42mMethods: 100.00% ( 3/ 3)[0m   [30;42mLines: 100.00% (  3/  3)[0m
+Team407\InvestingWebsite\Entity\SectorInStocks
+  [30;42mMethods: 100.00% ( 4/ 4)[0m   [30;42mLines: 100.00% (  5/  5)[0m
+Team407\InvestingWebsite\Entity\Stock
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% (  8/  8)[0m
+Team407\InvestingWebsite\Entity\Subforum
+  [30;42mMethods: 100.00% ( 6/ 6)[0m   [30;42mLines: 100.00% (  9/  9)[0m
+Team407\InvestingWebsite\Entity\Tracker
+  [30;42mMethods: 100.00% ( 1/ 1)[0m   [30;42mLines: 100.00% (  3/  3)[0m
+Team407\InvestingWebsite\Entity\User
+  [30;42mMethods: 100.00% (28/28)[0m   [30;42mLines: 100.00% ( 29/ 29)[0m
